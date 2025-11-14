@@ -327,3 +327,21 @@ body{
 .film-info.upcoming {
   font-family: "Montserrat", sans-serif;
 }
+
+
+.slick-slide img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  display: block;        /* removes unexpected vertical gap */
+}
+
+.slick-slider {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.slick-dots {
+  margin-top: 0 !important; 
+  padding-top: 0 !important;
+}
