@@ -148,6 +148,19 @@ overflow: hidden;
 }
 
 /* ===== Film Details ===== */
+  .film-additional-info {
+      margin-top: 30px;
+      padding: 20px;
+      border: 2px solid #e0e0e0;
+      background: #fafafa;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+
+      p { margin: 0; font-size: 0.95rem; line-height: 1.5; color: #333; }
+      .category-label { font-weight: 600; font-size: 1rem; color: #1d4ed8; margin-top: 10px; }
+    }
 .film-detail-container {
   display: flex;
   gap: 40px;
@@ -202,19 +215,7 @@ overflow: hidden;
       &.upcoming { background-color: #dc2626; color: #fff; font-family: "Montserrat", sans-serif; }
     }
 
-    .film-additional-info {
-      margin-top: 30px;
-      padding: 20px;
-      border: 2px solid #e0e0e0;
-      background: #fafafa;
-      border-radius: 8px;
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-
-      p { margin: 0; font-size: 0.95rem; line-height: 1.5; color: #333; }
-      .category-label { font-weight: 600; font-size: 1rem; color: #1d4ed8; margin-top: 10px; }
-    }
+  
   }
 }
 
