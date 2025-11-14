@@ -27,7 +27,7 @@ export async function getCategory(category: string) {
   }
 }
 
-export async function getMovie(category?: string, id?: string) {
+export async function getMovie(_category?: string, id?: string) {
   if (!id) throw new Error("Movie ID is required");
   return tmdbGet(`/movie/${id}`);
 }
