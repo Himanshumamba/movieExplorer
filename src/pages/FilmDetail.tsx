@@ -27,7 +27,12 @@ const FilmDetail = () => {
     }
   };
 
-  if (!movie) return <p className="loading">Loading...</p>;
+if (!movie)
+  return (
+    <div className="loading-container">
+      <p className="loading">Loading...</p>
+    </div>
+  );
 
   return (
     <div className="film-detail">
