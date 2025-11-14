@@ -11,7 +11,7 @@ const Wishlist = () => {
     setWishlist(saved);
   }, []);
 
-  // Remove a movie from wishlist
+  // Remove a movie/Item from wishlist
   const handleRemove = (id: number) => {
     const updated = wishlist.filter((movie) => movie.id !== id);
     setWishlist(updated);

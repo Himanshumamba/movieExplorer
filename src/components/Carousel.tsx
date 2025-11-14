@@ -8,7 +8,7 @@ interface CarouselProps {
   title: string;
 }
 
-const Carousel: React.FC<CarouselProps> = ({ category, title }) => {
+const Carousel =({ category, title } : CarouselProps) => {
   const [movies, setMovies] = useState<any[]>([]);
 
   useEffect(() => {

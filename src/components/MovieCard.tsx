@@ -1,4 +1,4 @@
-import React from "react";
+
 import { useNavigate } from "react-router-dom";
 import { posterPath } from "../api/tmdb";
 
@@ -7,7 +7,7 @@ interface MovieCardProps {
   category: string;
 }
 
-const MovieCard: React.FC<MovieCardProps> = ({ movie, category }) => {
+const MovieCard = ({ movie, category }:MovieCardProps) => {
   const navigate = useNavigate();
 
   return (
