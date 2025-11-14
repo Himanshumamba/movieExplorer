@@ -32,18 +32,39 @@ To run this application locally, follow these steps:
 1. Clone the repository: `git clone https://github.com/your-username/my-movie-app.git`.
 2. Install the dependencies: `npm install`.
 3. Start the development server: `npm run dev`.
-4. Open the application in your browser: `http://localhost:3000`.
+4. Open the application in your browser: `http://localhost:5173`.
+
 ### Environment Variables
 
 To run this application locally, you'll need to set the following environment variable:
 
 VITE_TMDB_API_KEY= Your API KEY 
 
+### API
+
+This project uses TheMovieDatabase (TMDb) API
+to fetch movie data such as popular, top-rated, and upcoming movies.
+
+To use the API:
+
+1. Sign up for a free TMDb account.
+
+2. Go to your API settings and generate an API key.
+
+3. Create a .env file in the project root and add your key:
+
+VITE_TMDB_API_KEY=your_api_key_here
+
+
+The app automatically uses this key to fetch movie data.
+
+You can also replace TMDb with any open film API of your choice if you prefer.
 
 ## Contributing
 
-Contributions are welcome! Please follow the guidelines in the [contributing](CONTRIBUTING.md) file.
+Contributions are welcome!.
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+© 2025 Himanshu Pandey. All rights reserved.
