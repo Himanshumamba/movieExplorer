@@ -345,3 +345,9 @@ body{
   margin-top: 0 !important; 
   padding-top: 0 !important;
 }
+.slick-prev:before,
+.slick-next:before {
+  font-size: 30px ;
+  color: rgb(255, 0, 0) ;
+}
+
