@@ -60,6 +60,11 @@ The app automatically uses this key to fetch movie data.
 
 You can also replace TMDb with any open film API of your choice if you prefer.
 
+
+## Check out the working demo of MovieApp in action:
+
+https://youtu.be/ZG-LV5P2EGU?si=ehB6X0PKeg4gg4W2
+
 ## Contributing
 
 Contributions are welcome!.
